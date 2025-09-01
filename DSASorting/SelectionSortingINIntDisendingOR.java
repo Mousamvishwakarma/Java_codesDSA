@@ -2,21 +2,21 @@ package DSASorting;
 import java.util.*;
 public class SelectionSortingINIntDisendingOR {
     public static void main(String[] args) {
-        int arr[] ={8,9,2,4,6,7,0};
-        int n = arr.length;
+        int array[] ={8,9,2,4,6,7,0};
+        int n = array.length;
         for(int i =0; i<n-1;i++){
             int minIndex = i;
-            for(int j=i+1; j<n; j++){
-                if(arr[j] > arr[minIndex]){
-                minIndex = j;
+             for(int j=i+1; j<n; j++){
+                 if(array[j] > array[minIndex]){
+                 minIndex = j;
 
                 }
             }
-            int temp = arr[i];
-            arr[i] = arr[minIndex];
-            arr[minIndex] = temp;
+            int temp = array[i];
+            array[i] = array[minIndex];
+            array[minIndex] = temp;
         }
-     for(int num : arr){
+     for(int num : array){
         System.out.print(num + " ");
      }
     }
