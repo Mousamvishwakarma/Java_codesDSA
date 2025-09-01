@@ -1,4 +1,4 @@
-package DSASorting;
+// package DSASorting;
 
 public class SelectionSortingInt {
      public static void main(String[] args) {

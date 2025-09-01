@@ -1,4 +1,4 @@
-package DSASorting;
+// package DSASorting;
 import java.util.*;
 public class SelectionSortingINIntDisendingOR {
     public static void main(String[] args) {
