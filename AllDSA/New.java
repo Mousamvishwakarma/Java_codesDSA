@@ -1,3 +1,4 @@
+package AllDSA;
 import java.util.*;
 
 public class New {
