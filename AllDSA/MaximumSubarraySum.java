@@ -1,5 +1,3 @@
-package AllDSA;
-
 public class MaximumSubarraySum {
     public static int maxSubArraySum(int[] arr) {
         int maxSoFar = arr[0];
@@ -12,3 +10,9 @@ public class MaximumSubarraySum {
 
         return maxSoFar;
     }
+
+    public static void main(String[] args) {
+        int[] arr = {34, -50, 42, 14, -5, 86};
+        System.out.println("Maximum Subarray Sum: " + maxSubArraySum(arr));
+    }
+}
