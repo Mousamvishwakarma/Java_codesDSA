@@ -1,5 +1,4 @@
 package AllDSA;
-
 import java.util.Arrays;
 
 public class MergeSortedArrays {
@@ -31,6 +30,6 @@ public class MergeSortedArrays {
         int M = 3, N = 3;
 
         merge(ARR1, M, ARR2, N);
-jbjak
-
+        System.out.println(Arrays.toString(ARR1));
+    }
 }
